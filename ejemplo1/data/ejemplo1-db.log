@@ -1,0 +1,4 @@
+/*C4*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C5*/SET SCHEMA PUBLIC
+create table pet (id varchar(32) not null, breed varchar(255), dateofbirth date, description varchar(255), name varchar(255), primary key (id))
